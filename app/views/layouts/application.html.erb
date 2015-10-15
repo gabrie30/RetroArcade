@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>$(".breakout_game").hide();</script>
+  <meta charset="utf-8" />
+  <title>Jay's Arcade</title>
+</head>
+
+  <div class="index_content">
+    <div>
+      <!-- width="480" height="520" -->
+      <canvas id="myCanvas" width="535" height="409"></canvas>
+
+      <div class="high_scores"></div>
+      <div class="cover">
+        <div class="heading">Welcome! Choose a game below</div>
+
+        <div class="play_breakout start_game">Play Breakout</div>
+        <br>
+        <div class="play_falldown start_game">Play Falldown</div>
+      </div>
+        <img class="gameboy" src="game_and_watch.jpg" alt="Gameboy">
+    </div>
+  </div>
+  
+<body>
+
+<%= yield %>
+
+</body>
+</html>

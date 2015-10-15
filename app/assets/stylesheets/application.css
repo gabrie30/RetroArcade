@@ -1,0 +1,170 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.index_content {
+  position: relative;
+  margin: auto;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 75px;
+}
+
+.start_game {
+  text-align: center;
+  position: relative;
+  top: 60px;
+}
+
+.controls {
+  position: relative;
+}
+
+.start_game:hover::before {
+  content: "> ";
+}
+
+.game_over {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.all_time_highs {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+.scores {
+  text-align: left;
+  padding-left: 25%;
+  padding-bottom: 20px;
+}
+
+.play_again_container {
+  text-align: center;
+}
+
+.play_again_container .yes:hover::before {
+  content: ">";
+}
+
+.play_again_container .no:hover::before {
+  content: ">";
+}
+
+.new_high_score {
+  text-align: center;
+}
+
+.new_high_score .initials {
+  display: block;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+input[type="text"] {
+  display: block;
+  margin: auto;
+  width: 95%;
+  font-family: 'Press Start 2P';
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  background-color: #5B613F;
+  text-align: center;
+  border-color: black;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+#submit {
+  background-color: #5B613F;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius:6px;
+  color: black;
+  font-family: 'Press Start 2P';
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+  border:none;
+  padding-top: 15px;
+}
+
+#submit:hover {
+  text-decoration: underline;
+}
+
+.cover {
+  font-family: 'Press Start 2P', cursive;
+  width: 535px;
+  height: 409px;
+  z-index: 5;
+  border: 2px solid #540D11;
+  border-radius: 5px;
+  position: absolute;
+  top: 73px;
+  left: 245px;
+  background: -webkit-linear-gradient(#454930, #646A45); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#454930, #646A45); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#454930, #646A45); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#454930, #646A45); /* Standard syntax */
+}
+
+.high_scores {
+  font-family: 'Press Start 2P', cursive;
+  width: 535px;
+  height: 409px;
+  z-index: 5;
+  border: 2px solid #540D11;
+  border-radius: 5px;
+  position: absolute;
+  top: 73px;
+  left: 245px;
+  background: -webkit-linear-gradient(#454930, #646A45); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#454930, #646A45); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#454930, #646A45); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#454930, #646A45); /* Standard syntax */
+}
+
+.gameboy {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+}
+
+#myCanvas {
+  border: 2px solid #540D11;
+  border-radius: 5px;
+  position: absolute;
+  top: 73px;
+  left: 245px;
+}
+
+canvas {
+  background: -webkit-linear-gradient(#454930, #646A45); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#454930, #646A45); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#454930, #646A45); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#454930, #646A45); /* Standard syntax */
+}
