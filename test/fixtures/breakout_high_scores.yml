@@ -1,9 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
-  score: 1
+high_score:
+  name: "jay"
+  score: 10
 
-two:
-  name: MyString
+high_score:
+  name: "jag"
   score: 1

@@ -1,14 +1,18 @@
 require 'test_helper'
 
-class BreakoutHighScoresControllerTest < ActionController::TestCase
-  test "should get index" do
-    get :index
+class BreakoutHighScoresControllerTest < ActionController::TestCase 
+  
+  def setup
+    @high_score = {name: "jag", score: 10}
+  end
+
+  test "should get show" do
+    get :show
     assert_response :success
   end
 
   test "should get create" do
-    get :create
+    get :create, high_score: @high_score
     assert_response :success
   end
-
 end
