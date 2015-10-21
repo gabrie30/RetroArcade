@@ -3,7 +3,6 @@ Rails.application.configure do
 
   # Added by JAG
   config.serve_static_files = true
-  config.log_level = :debug
 
   # Code is not reloaded between requests.
   config.cache_classes = true
