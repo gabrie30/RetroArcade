@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20151015164104) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "breakout_high_scores", force: :cascade do |t|
     t.string   "name"
     t.integer  "score"
