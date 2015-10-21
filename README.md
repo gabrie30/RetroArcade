@@ -1,6 +1,8 @@
 # JavascriptArcade
 
-[Play Now](https://javascript-arcade.herokuapp.com/)
+[Play Live Demo Now](https://javascript-arcade.herokuapp.com/)
+
+
 ![JavaScript Arcade Screenshot](http://i57.tinypic.com/ea59xj.png)
 
 ## Features Implemented
