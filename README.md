@@ -1,4 +1,4 @@
 # JavascriptArcade
 
 
-![JavaScript Arcade Screenshot](http://i61.tinypic.com/c5nnn.png)
+![JavaScript Arcade Screenshot](http://i57.tinypic.com/ea59xj.png)
