@@ -19,6 +19,11 @@
   margin: auto;
 }
 
+body {
+  background-image: url(/retina_wood.png);
+  background-repeat:repeat;
+}
+
 .heading {
   text-align: center;
   padding-top: 75px;
