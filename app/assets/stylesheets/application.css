@@ -30,6 +30,11 @@
   top: 60px;
 }
 
+.instructions {
+  padding-top: 200px;
+  text-align: center;
+}
+
 .controls {
   position: relative;
 }
