@@ -1,4 +1,4 @@
-# JavaScript Arcade
+# Retro Arcade
 
 [Play Live Demo Now](https://javascript-arcade.herokuapp.com/)
 
